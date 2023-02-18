@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>会飞の只因</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>跳跃的只因</title>
   </head>
   <body>
     <div class="end-game-menu" id="end-game-menu">
-      <h1>Game Over</h1>
-      <p>Score: <span id="end-game-score"></span></p>
-      <p>Highscore: <span id="high-score"></span></p>
-      <button id="retry">Retry</button>
+      <h1>你干嘛啊~哎哎哟！</h1>
+      <p>本局分数: <span id="end-game-score"></span></p>
+      <p>最高分数: <span id="high-score"></span></p>
+      <button id="retry">重新开始</button>
     </div>
     <canvas id="game-canvas" width="500" height="500"></canvas>
-    <script type="module" src="/src/main.ts"></script>
   </body>
+  <script src="index.js"></script>
 </html>
